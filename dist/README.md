@@ -1,35 +1,43 @@
 
-  [![License Badge](https://img.shields.io/badge/License-Mozilla_Public_License-blueviolet.svg)](https://shields.io/)
+[![License Badge](https://img.shields.io/badge/License-Unilicense-blueviolet.svg)](https://shields.io/)
 
-    # TITLE
+# FeedMe-a-ReadMe
 
-    ## Description
-    DESCRIPTION
 
-    ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Testing](#testing)
-    * [How to Contribute](#how-to-contribute)
-    * [Licenses](#licenses)
-    * [Questions](#questions)
-     
-    ## Installation
-    INSTALLATION
+## Description
+A CLI tool that allows a user to create high-quality README files quickly. 
 
-    ## Usage
-    USAGE
 
-    ## Testing
-    TESTS
+## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Testing](#testing)
+  * [How to Contribute](#how-to-contribute)
+  * [Licenses](#licenses)
+  * [Questions](#questions)
 
-    ## How to Contribute
-    CONTRIBUTE
 
-    ## Licenses
-    Mozilla_Public_License
+## Installation
+Clone the application to your local machine, then run `node index.js`.
 
-    ## Questions
-    LOGANMERCHANT
-    BLANK@GMAIL.COM
+
+## Usage
+Simply answer the prompts after `node index.js` is ran, and your README will be in the 'dist' folder. 
+
+
+## Testing
+None at this time
+
+
+## How to Contribute
+Refer to the questions portion of this document, and reach outthat way.
+
+
+## Licenses
+Unilicense
+
+
+## Questions
+loganmerchant
+merchantclogan@gmail.com
   

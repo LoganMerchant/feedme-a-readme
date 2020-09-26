@@ -13,39 +13,47 @@ const generateMarkdown = data => {
   } = data;
 
   return `
-  [![License Badge](https://img.shields.io/badge/License-${licenses}-blueviolet.svg)](https://shields.io/)
+[![License Badge](https://img.shields.io/badge/License-${licenses}-blueviolet.svg)](https://shields.io/)
 
-    # ${name}
+# ${name}
 
-    ## Description
-    ${description}
 
-    ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Testing](#testing)
-    * [How to Contribute](#how-to-contribute)
-    * [Licenses](#licenses)
-    * [Questions](#questions)
-     
-    ## Installation
-    ${installation}
+## Description
+${description}
 
-    ## Usage
-    ${usage}
 
-    ## Testing
-    ${tests}
+## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Testing](#testing)
+  * [How to Contribute](#how-to-contribute)
+  * [Licenses](#licenses)
+  * [Questions](#questions)
 
-    ## How to Contribute
-    ${contribute}
 
-    ## Licenses
-    ${licenses}
+## Installation
+${installation}
 
-    ## Questions
-    ${github}
-    ${email}
+
+## Usage
+${usage}
+
+
+## Testing
+${tests}
+
+
+## How to Contribute
+${contribute}
+
+
+## Licenses
+${licenses}
+
+
+## Questions
+${github}
+${email}
   `;
 };
 
