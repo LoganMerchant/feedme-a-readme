@@ -13,7 +13,7 @@ const generateMarkdown = data => {
   } = data;
 
   return `
-[![License Badge](https://img.shields.io/badge/License-${licenses}-blueviolet.svg)](https://shields.io/)
+[![License Badge](https://img.shields.io/badge/License-${licenses.split(" ").join("_")}-blueviolet.svg)](https://shields.io/)
 
 # ${name}
 
@@ -48,12 +48,15 @@ ${contribute}
 
 
 ## Licenses
-${licenses}
+This project is registered with the following license(s):
+* ${licenses}
 
 
 ## Questions
-${github}
-${email}
+Check me out on [GitHub](https://www.github.com/${github}). 
+<br>
+<br>
+If you have any further questions, please reach out here: ${email}
   `;
 };
 
