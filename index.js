@@ -1,4 +1,6 @@
 const inquirer = require("inquirer");
+const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // array of questions for user
 const questions = () => {
@@ -79,13 +81,13 @@ const questions = () => {
                 name: 'licenses',
                 message: 'Which license is this project using? (REQUIRED)',
                 choices: [
-                    'GNU AGPLv3',
-                    'GNU GPLv3',
-                    'GNU LGPLv3',
-                    'Mozilla Public License',
-                    'Apache License 2.0',
-                    'MIT License',
-                    'Boost Software License 1.0',
+                    'GNU_AGPLv3',
+                    'GNU_GPLv3',
+                    'GNU_LGPLv3',
+                    'Mozilla_Public_License',
+                    'Apache_License_2.0',
+                    'MIT_License',
+                    'Boost_Software_License_1.0',
                     'Unilicense',
                 ],
             },
@@ -116,10 +118,6 @@ const questions = () => {
                 },
             },
         ])
-        .then(answers => {
-            console.log(answers);
-            return;
-        })
         .catch(err => {
             if (err) {
                 throw err
@@ -128,14 +126,24 @@ const questions = () => {
 };
 
 // function to write README file
-function writeToFile(fileName, data) {
-}
+const writeToFile = (answers) => {
+    
+};
 
 // function to initialize program
-function init() {
-
-}
+const init = () => {
+    questions()
+    .then(data => {
+        return generateMarkdown(data);
+    })
+    .then(data => {
+        return fs.writeFile('./dist/README.md', data, err => {
+            if (err) {
+                throw err
+            };
+        });
+    });
+};
 
 // function call to initialize program
-init;
-questions();
+init();
