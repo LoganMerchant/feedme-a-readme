@@ -126,8 +126,8 @@ const questions = () => {
 
 // function call to initialize program
 questions()
-    .then(data => {
-        return generateMarkdown(data);
+    .then(answers => {
+        return generateMarkdown(answers);
     })
     .then(markdownData => {
         return writeToFile(markdownData);

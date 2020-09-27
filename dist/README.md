@@ -1,11 +1,11 @@
 
 [![License Badge](https://img.shields.io/badge/License-Mozilla_Public_License-blueviolet.svg)](https://shields.io/)
 
-# TITLE
+# THIS IS A TITLE
 
 
 ## Description
-DESCRIPTION
+THIS IS A DESCRIPTION
 
 
 ## Table of Contents
@@ -18,19 +18,19 @@ DESCRIPTION
 
 
 ## Installation
-INSTALLATION INSTRUCTIONS
+THESE ARE THE INSTALLATION INSTRUCTIONS
 
 
 ## Usage
-THIS IS HOW THIS IS SUPPOSED TO BE USED.
+THIS IS HOW THIS PROJECT IS TO BE USED
 
 
 ## Testing
-THESE ARE THE TESTS TO RUN THE APPLICATION
+THESE ARE THE TESTS THAT CAN BE RAN
 
 
 ## How to Contribute
-THIS IS HOW PEOPLE WOULD CONTRIBUTE
+THIS IS HOW PEOPLE SHOULD CONTRIBUTE
 
 
 ## Licenses
@@ -39,8 +39,8 @@ This project is registered with the following license(s):
 
 
 ## Questions
-Check me out on [GitHub](https://www.github.com/LOGANMERCHANT). 
+Check me out on [GitHub](https://www.github.com/GITHUBUSERNAME). 
 <br>
 <br>
-If you have any further questions, please reach out here: LOGANMERCHANT@GMAIL.COM
+If you have any further questions, please reach out here: EMAIL@EMAIL.COM
   
