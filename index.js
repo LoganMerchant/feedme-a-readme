@@ -1,4 +1,5 @@
-const inquirer = require("inquirer");
+const inquirer = require('inquirer');
+const { generateMarkdown, writeToFile } = require('./utils/generateMarkdown.js');
 
 // array of questions for user
 const questions = () => {
@@ -77,7 +78,7 @@ const questions = () => {
             {
                 type: 'list',
                 name: 'licenses',
-                message: 'Which license is this project using? (REQUIRED)',
+                message: 'Which license is this project under? (REQUIRED)',
                 choices: [
                     'GNU AGPLv3',
                     'GNU GPLv3',
@@ -116,10 +117,6 @@ const questions = () => {
                 },
             },
         ])
-        .then(answers => {
-            console.log(answers);
-            return;
-        })
         .catch(err => {
             if (err) {
                 throw err
@@ -127,15 +124,17 @@ const questions = () => {
         });
 };
 
-// function to write README file
-function writeToFile(fileName, data) {
-}
-
-// function to initialize program
-function init() {
-
-}
-
 // function call to initialize program
-init;
-questions();
+questions()
+    .then(answers => {
+        return generateMarkdown(answers);
+    })
+    .then(markdownData => {
+        return writeToFile(markdownData);
+    })
+    .then(writeToFileResponse => {
+        console.log(writeToFileResponse.message);
+    })
+    .catch(err => {
+        console.log(err);
+    });
