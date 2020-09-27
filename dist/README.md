@@ -1,40 +1,45 @@
 
-[![License Badge](https://img.shields.io/badge/License-Unilicense-blueviolet.svg)](https://shields.io/)
+[![License Badge](https://img.shields.io/badge/License-MIT_License-blueviolet.svg)](https://shields.io/)
 
-# ok
+# THIS IS AN EXAMPLE TITLE
 
 
 ## Description
-ok
+THIS IS AN EXAMPLE DESCRIPTION
 
 
 ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
+  * [Testing](#testing)
   * [How to Contribute](#how-to-contribute)
   * [Licenses](#licenses)
   * [Questions](#questions)
 
 
 ## Installation
-ok
+THESE WOULD BE EXAMPLE INSTALLATION INSTRUCTIONS...
 
 
 ## Usage
-ok
+THIS IS HOW A PROJECT WOULD BE USED
 
+
+## Tests
+THIS WOULD BE WHERE ANY TESTS WOULD BE SHOWN, IF THERE ARE ANY
+    
 
 ## How to Contribute
-ok
+THIS IS HOW PEOPLE WOULD CONTRIBUTE TO A PROJECT IN THE FUTURE
 
 
 ## Licenses
 This project is registered with the following license(s), to find out more visit [Choose a License](https://choosealicense.com/licenses):
-* The Unlicense
+* MIT License
 
 ## Questions
-Check me out on [GitHub](https://www.github.com/ok). 
+Check me out on [GitHub](https://www.github.com/THIS IS WHERE A USERNAME WOULD BE). 
 <br>
 <br>
-If you have any further questions, please reach out here: ok
+If you have any further questions, please reach out here: THIS IS WHERE AN EMAIL WOULD BE
   
