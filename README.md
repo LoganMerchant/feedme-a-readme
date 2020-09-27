@@ -18,15 +18,15 @@ FeedMe-a-ReadMe is a command line application that allows developers to quickly 
 
 
 ## Installation
-To install this project, simply clone this repository to your local machine, navigate to the root folder of the cloned repo, and run `node index` in your terminal.
+To install this project, simply clone this repository to your local machine, navigate to the root folder of the cloned repo, and then install the necessary modules by running `npm install`.
 
 
 ## Usage
-Once `node index` is ran, all that a user must do is answer the series of prompts with as much information as they see fit, and you will find the generated README in the `dist` folder.
+Once the proper modules are installed, all that you need to do is run `node index` or `node index.js` in your terminal. A series of questions/prompts will appear, asking for information about your project. Once all of the questions are answered, you will be able to find your generated README in the `dist` folder on your local machine. 
 
 
 ## Testing
-This is a demo video of the application's functionality.
+While this application is smaller in size, feel free to test it out in whatever ways you would like. If you'd like to see a demo of the application, it can be found [here](https://drive.google.com/file/d/1KCcCPcl9M2OJSjs1uahnG5AqU2VtHM86/view).
 
 
 ## How to Contribute
