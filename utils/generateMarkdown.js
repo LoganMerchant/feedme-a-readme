@@ -50,9 +50,8 @@ ${contribute}
 
 
 ## Licenses
-This project is registered with the following license(s):
+This project is registered with the following license(s), to find out more visit [Choose a License](https://choosealicense.com/licenses):
 * ${licenses}
-
 
 ## Questions
 Check me out on [GitHub](https://www.github.com/${github}). 

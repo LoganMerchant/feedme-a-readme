@@ -34,7 +34,7 @@ If you or anyone else would like to help build out this project in the future, n
 
 
 ## Licenses
-This project is registered with the following license(s):
+This project is registered with the following license(s), to find out more visit [Choose a License](https://choosealicense.com/licenses):
 * Unilicense
 
 
