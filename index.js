@@ -1,4 +1,4 @@
-const inquirer = require("inquirer");
+const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
@@ -126,8 +126,20 @@ const questions = () => {
 };
 
 // function to write README file
-const writeToFile = (answers) => {
-    
+const writeToFile = (markdownData) => {
+    return new Promise((resolve, reject) => {
+        fs.writeFile('./dist/README.md', markdownData, err => {
+            if (err) {
+                reject(err);
+                return;
+            }
+
+            resolve({
+                ok: true,
+                message: 'README generated! Find it in the `dist` folder.',
+            });
+        });
+    });
 };
 
 // function to initialize program
@@ -136,12 +148,14 @@ const init = () => {
     .then(data => {
         return generateMarkdown(data);
     })
-    .then(data => {
-        return fs.writeFile('./dist/README.md', data, err => {
-            if (err) {
-                throw err
-            };
-        });
+    .then(markdownData => {
+        return writeToFile(markdownData);
+    })
+    .then(writeToFileResponse => {
+        console.log(writeToFileResponse.message);
+    })
+    .catch(err => {
+        console.log(err);
     });
 };
 
