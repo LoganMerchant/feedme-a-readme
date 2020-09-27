@@ -58,9 +58,22 @@ const questions = () => {
                 }, 
             },
             {
+                type: 'confirm',
+                name: 'testsConfirm',
+                message: 'Would you like any tests to be displayed for this project?',
+            },
+            {
                 type: 'input',
                 name: 'tests',
-                message: 'What are the tests you would like to have displayed, if any?',
+                message: 'What are the tests you want to give?',
+                default: true,
+                when: ({ testsConfirm }) => {
+                    if (!testsConfirm) {
+                        return false;
+                    } else {
+                        return true;
+                    };
+                },
             },
             {
                 type: 'input',

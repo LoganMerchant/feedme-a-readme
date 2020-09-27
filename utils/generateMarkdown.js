@@ -1,5 +1,26 @@
 const fs = require('fs');
 
+const generateTestsInTOC = (tests) => {
+  if (!tests) {
+    return '';
+  } else {
+    return `
+  * [Testing](#testing)`
+  }
+}
+
+const generateTests = (tests) => {
+  if (!tests) {
+    return ``
+  } else {
+    return `
+
+## Tests
+${tests}
+    `
+  };
+};
+
 // function to generate markdown for README
 const generateMarkdown = data => {
   const {
@@ -26,8 +47,7 @@ ${description}
 
 ## Table of Contents
   * [Installation](#installation)
-  * [Usage](#usage)
-  * [Testing](#testing)
+  * [Usage](#usage)${generateTestsInTOC(tests)}
   * [How to Contribute](#how-to-contribute)
   * [Licenses](#licenses)
   * [Questions](#questions)
@@ -39,11 +59,7 @@ ${installation}
 
 ## Usage
 ${usage}
-
-
-## Testing
-${tests}
-
+${generateTests(tests)}
 
 ## How to Contribute
 ${contribute}

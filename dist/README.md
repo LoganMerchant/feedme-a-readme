@@ -1,45 +1,40 @@
 
-[![License Badge](https://img.shields.io/badge/License-GNU_AGPLv3-blueviolet.svg)](https://shields.io/)
+[![License Badge](https://img.shields.io/badge/License-Unilicense-blueviolet.svg)](https://shields.io/)
 
-# TEST
+# ok
 
 
 ## Description
-TEST
+ok
 
 
 ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Testing](#testing)
   * [How to Contribute](#how-to-contribute)
   * [Licenses](#licenses)
   * [Questions](#questions)
 
 
 ## Installation
-TEST
+ok
 
 
 ## Usage
-TEST
-
-
-## Testing
-TEST
+ok
 
 
 ## How to Contribute
-TEST
+ok
 
 
 ## Licenses
 This project is registered with the following license(s), to find out more visit [Choose a License](https://choosealicense.com/licenses):
-* GNU AGPLv3
+* Unilicense
 
 ## Questions
-Check me out on [GitHub](https://www.github.com/TEST). 
+Check me out on [GitHub](https://www.github.com/ok). 
 <br>
 <br>
-If you have any further questions, please reach out here: TEST
+If you have any further questions, please reach out here: ok
   
