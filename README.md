@@ -18,6 +18,9 @@ FeedMe-a-ReadMe is a command line application that allows developers to quickly 
 
 
 ## Installation
+**[Node.js](https://nodejs.org/en/) is required to run this application.**
+<br>
+<br>
 To install this project, simply clone this repository to your local machine, navigate to the root folder of the cloned repo, and then install the necessary modules by running `npm install`.
 
 
