@@ -1,11 +1,11 @@
 
-[![License Badge](https://img.shields.io/badge/License-Mozilla_Public_License-blueviolet.svg)](https://shields.io/)
+[![License Badge](https://img.shields.io/badge/License-Unilicense-blueviolet.svg)](https://shields.io/)
 
-# THIS IS A TITLE
+# FeedMe-a-ReadMe
 
 
 ## Description
-THIS IS A DESCRIPTION
+FeedMe-a-ReadMe is a command line application that allows developers to quickly create high-quality READMEs by simply answering a few prompts in their terminal.
 
 
 ## Table of Contents
@@ -18,29 +18,29 @@ THIS IS A DESCRIPTION
 
 
 ## Installation
-THESE ARE THE INSTALLATION INSTRUCTIONS
+To install this project, simply clone this repository to your local machine, navigate to the root folder of the cloned repo, and run `node index` in your terminal.
 
 
 ## Usage
-THIS IS HOW THIS PROJECT IS TO BE USED
+Once `node index` is ran, all that a user must do is answer the series of prompts with as much information as they see fit, and you will find the generated README in the `dist` folder.
 
 
 ## Testing
-THESE ARE THE TESTS THAT CAN BE RAN
+This is a demo video of the application's functionality.
 
 
 ## How to Contribute
-THIS IS HOW PEOPLE SHOULD CONTRIBUTE
+If you or anyone else would like to help build out this project in the future, navigate to the [questions](#questions) portion of this readme and shoot me an email.
 
 
 ## Licenses
 This project is registered with the following license(s):
-* Mozilla Public License
+* Unilicense
 
 
 ## Questions
-Check me out on [GitHub](https://www.github.com/GITHUBUSERNAME). 
+Check me out on [GitHub](https://www.github.com/loganmerchant). 
 <br>
 <br>
-If you have any further questions, please reach out here: EMAIL@EMAIL.COM
+If you have any further questions, please reach out here: merchantclogan@gmail.com
   
