@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 // function to generate markdown for README
 const generateMarkdown = data => {
   const {
@@ -60,4 +62,21 @@ If you have any further questions, please reach out here: ${email}
   `;
 };
 
-module.exports = generateMarkdown;
+// function to write README file
+const writeToFile = markdownData => {
+  return new Promise((resolve, reject) => {
+      fs.writeFile('./dist/README.md', markdownData, err => {
+          if (err) {
+              reject(err);
+              return;
+          }
+
+          resolve({
+              ok: true,
+              message: 'README generated! Find it in the `dist` folder.',
+          });
+      });
+  });
+};
+
+module.exports = { generateMarkdown, writeToFile };
