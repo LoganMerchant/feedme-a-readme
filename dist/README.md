@@ -1,11 +1,11 @@
 
-[![License Badge](https://img.shields.io/badge/License-MIT_License-blueviolet.svg)](https://shields.io/)
+[![License Badge](https://img.shields.io/badge/License-Apache_License_2.0-blueviolet.svg)](https://shields.io/)
 
-# THIS IS AN EXAMPLE TITLE
+# TEST TITLE
 
 
 ## Description
-THIS IS AN EXAMPLE DESCRIPTION
+TEST DESCRIPTION
 
 
 ## Table of Contents
@@ -18,28 +18,28 @@ THIS IS AN EXAMPLE DESCRIPTION
 
 
 ## Installation
-THESE WOULD BE EXAMPLE INSTALLATION INSTRUCTIONS...
+TEST INSTALL INSTRUCTIONS
 
 
 ## Usage
-THIS IS HOW A PROJECT WOULD BE USED
+TEST USAGE
 
 
 ## Tests
-THIS WOULD BE WHERE ANY TESTS WOULD BE SHOWN, IF THERE ARE ANY
+TEST TESTS
     
 
 ## How to Contribute
-THIS IS HOW PEOPLE WOULD CONTRIBUTE TO A PROJECT IN THE FUTURE
+TEST CONTRIBUTE
 
 
 ## Licenses
 This project is registered with the following license(s), to find out more visit [Choose a License](https://choosealicense.com/licenses):
-* MIT License
+* Apache License 2.0
 
 ## Questions
-Check me out on [GitHub](https://www.github.com/THIS IS WHERE A USERNAME WOULD BE). 
+Check me out on [GitHub](https://www.github.com/TEST MCGEE). 
 <br>
 <br>
-If you have any further questions, please reach out here: THIS IS WHERE AN EMAIL WOULD BE
+If you have any further questions, please reach out here: TEST@TEST.COM
   

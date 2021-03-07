@@ -4,7 +4,7 @@
 
 ## Description
 
-FeedMe-a-ReadMe is a command line application that allows developers to quickly create high-quality READMEs by simply answering a few prompts in their terminal.
+FeedMe-a-ReadMe is a command line application that allows developers to quickly create high-quality READMEs by simply answering a few prompts in their terminal. The README that is created will include a title, description, table of contents, installation instructions, usage instructions, tests (optionally), how to contribute instructions, a license, and a sections for any further questions.
 
 ## Demo
 
@@ -14,24 +14,33 @@ FeedMe-a-ReadMe is a command line application that allows developers to quickly 
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Testing](#testing)
 - [How to Contribute](#how-to-contribute)
 - [Licenses](#licenses)
 - [Questions](#questions)
 
 ## Installation
 
-**[Node.js](https://nodejs.org/en/) is required to run this application.**
+1. If you'd like to install a copy of this repository, clone it by running one of these commands in your terminal:
 
-To install this project, simply clone this repository to your local machine, navigate to the root folder of the cloned repo, and then install the necessary modules by running `npm install`.
+   **HTTPS**
+
+   `git clone https://github.com/LoganMerchant/feedme-a-readme.git`
+
+   **SSH**
+
+   `git@github.com:LoganMerchant/feedme-a-readme.git`
+
+2. After that is done, you'll need to install the npm dependencies via this command:
+
+   `npm install`
+
+3. The project should now be installed locally and ready to be ran via:
+
+   `node index.js`
 
 ## Usage
 
 Once the proper modules are installed, all that you need to do is run `node index` or `node index.js` in your terminal. A series of questions/prompts will appear, asking for information about your project. Once all of the questions are answered, you will be able to find your generated README in the `dist` folder on your local machine.
-
-## Testing
-
-While this application is smaller in size, feel free to test it out in whatever ways you would like. If you'd like to see a demo of the application, it can be found
 
 ## How to Contribute
 
